@@ -295,9 +295,151 @@
         width: 100%;
     }
 
-    /* new produck */
+    /*new products section  */
+    .new-products {
+        margin-bottom: 70px;
+    }
     .new-products__slider {
+        gap: 15px;
         flex-direction: column;
+    }
+
+    .slider__card:nth-child(4) {
+        display: none;
+    }
+    .slider__title {
+        font-size: 18px;
+        line-height: 21.5px;
+        margin-bottom: 17px;
+    }
+    .slider__card-button {
+        width: 56px;
+        height: 56px;
+        bottom: 18px;
+        right: 26px;
+        & .icon {
+            font-size: 26px;
+        }
+    }
+    .slider-arrows {
+        display: none;
+    }
+
+    .btn-view {
+        display: block;
+        font-size: 18px;
+        line-height: 21.5px;
+        padding-top: 21px;
+        padding-bottom: 21px;
+        text-transform: uppercase;
+        width: 100%;
+        margin-top: 18px;
+    }
+
+    /* single products */
+    .single-product {
+        padding-top: 56px;
+        padding-bottom: 56px;
+        margin-bottom: 70px;
+    }
+    .single__title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -1px;
+    }
+    .single__text {
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: -1px;
+        margin-bottom: 25px;
+    }
+
+    /* variety section */
+    .variety__wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .variety__title {
+        display: block;
+        font-size: 22px;
+        line-height: 26px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .variety__card:last-child {
+        display: none;
+    }
+    .variety__card {
+        & img {
+            margin-bottom: 15px;
+        }
+    }
+    .variety__type {
+        font-size: 18px;
+        line-height: 21.5px;
+        font-weight: 500;
+    }
+
+    /* kids section */
+    .kids {
+        padding-top: 47px;
+        padding-bottom: 61px;
+    }
+    .kids__title {
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 23.87px;
+        letter-spacing: 0px;
+        margin-bottom: 10px;
+    }
+    .kids__text {
+        font-size: 14px;
+        line-height: 16.71px;
+        letter-spacing: 0px;
+        margin-bottom: 30px;
+    }
+    /* footer section */
+    .desktop-footer {
+        display: none;
+    }
+    .mobile-footer {
+        display: block;
+    }
+    .footer-support {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .footer-about {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 55px;
+    }
+    .footer-address {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 50xp;
+    }
+    .footer__bottom {
+        margin-top: 30px;
+    }
+    .footer-line {
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+    .social-icons {
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+    .footer__copyright {
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        margin-left: 0px;
+        padding-bottom: 20px;
     }
 
     /* footer */
